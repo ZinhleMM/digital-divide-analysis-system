@@ -1,17 +1,17 @@
 # digital-divide-analysis-system
-A Django-based RESTful app exploring technology access and its impact on education in South African households. It analyses the digital divide, highlights regional disparities, and advocates for equitable access. Features include endpoints for tech ownership, internet use in education, and a Digital Access Index calculator.
-[object Object]
+A Django-based RESTful app exploring technology access and its impact on education in South African households using the General Household Survey (GHS) 2023 dataset. It analyses the digital divide, highlights regional disparities, and advocates for equitable access. Features include endpoints for tech ownership, internet use in education, and a Digital Access Index calculator.
+
 Bridging the Digital Divide: South African Households Analysis
-📊 Overview
-A Django-based RESTful web application analysing technology access and educational outcomes in South African households using the General Household Survey (GHS) 2023 dataset.
-🎯 Project Objectives
+Overview
+
+Project Objectives
 
 Analyze digital access at the household level
 Explore relationships between technology access and educational outcomes
 Highlight regional disparities in digital inclusion
 Provide data-driven insights for policy recommendations
 
-🛠️ Technical Stack
+Technical Stack
 
 Framework: Django 4.2.7
 API: Django REST Framework 3.14.0
@@ -20,7 +20,7 @@ Data Processing: Pandas 1.5.3, NumPy 1.24.4
 Documentation: drf-yasg 1.21.7
 Testing: pytest 7.4.3
 
-🚀 Getting Started
+Getting Started
 Prerequisites
 
 Python 3.8+
@@ -94,7 +94,7 @@ Calculates household digital readiness score
 GET /api/education-impact/
 Analyzes technology access impact on education
 
-🧪 Testing
+Testing
 Run the test suite:
 pytest
 
@@ -102,40 +102,27 @@ Generate coverage report:
 coverage run -m pytest
 coverage report
 
-📝 Admin Access
+Admin Access
 
 URL: /admin
 Username: admin
 Password: digital2023
 
-📚 Documentation
+Documentation
 
 API Documentation: /swagger/
 Detailed Setup Guide: /docs/setup_guide.md
 
-🔒 Environment Variables
+Environment Variables
 Create a .env file in the project root:
 DEBUG=True
 SECRET_KEY=your-secret-key
 ALLOWED_HOSTS=localhost,127.0.0.1
 
-👥 Contributing
 
-Fork the repository
-Create your feature branch
-Commit your changes
-Push to the branch
-Create a Pull Request
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-🤝 Acknowledgments
+Acknowledgments
 
 Stats SA for the General Household Survey 2023 dataset
 University of London for project guidance
-Contributors and maintainers
-
-📧 Contact
-For questions and support, please contact [your-email@example.com]
 
 Note: This project is part of the CM3035 Advanced Web Development module at the University of London.
